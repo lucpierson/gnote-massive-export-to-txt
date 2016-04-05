@@ -23,7 +23,7 @@ Here I'll use Debian (Ubuntu) commands as example, so apt-get. Replace them acco
 
 ` sudo apt-get install xml-twig-tools unzip zip -y`
 
-you may also use Red Hat Enterprise Linux 6
+you may also use Red Hat Enterprise Linux (RHEL) Version 6
 ` sudo yum install perl-XML-Twig -y`
 
 
