@@ -19,9 +19,13 @@ Basically it parses the notes that are in XML format, and extract both the conte
 ## How to install it
 Open a terminal in your favourite distribution and paste the following lines:
 ####Dependencies:
-Here I'll use Debian (Ubuntu) commands as example, so apt-get. Replace them according to your package manager (pacman, yum... ):
+Here I'll use Debian (Ubuntu) commands as example, so apt-get. Replace them according to your package manager (pacman... ):
 
 ` sudo apt-get install xml-twig-tools unzip zip -y`
+
+you may also use Red Hat Enterprise Linux 6
+` sudo yum install perl-XML-Twig -y`
+
 
 ####Install (paste this thing):
 `cd && mkdir -p .gnote-massive-export-to-txt && cd .gnote-massive-export-to-txt && wget https://github.com/rhoconlinux/gnote-massive-export-to-txt/archive/master.zip && unzip master.zip &&  cd gnote-massive-export-to-txt-master/ &&  mv gnote-export-to-txt.sh ~/.gnote-massive-export-to-txt/ && cd .. && rm -R gnote-massive-export-to-txt-master && rm master.zip && chmod +x gnote-export-to-txt.sh && cd
