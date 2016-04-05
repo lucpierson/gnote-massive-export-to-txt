@@ -23,7 +23,8 @@ Here I'll use Debian (Ubuntu) commands as example, so apt-get. Replace them acco
 
 ` sudo apt-get install xml-twig-tools unzip zip -y`
 
-you may also use Red Hat Enterprise Linux (RHEL) Version 6
+you may also use Red Hat Enterprise Linux (RHEL) Version 6 :
+
 ` sudo yum install perl-XML-Twig -y`
 
 
@@ -47,6 +48,8 @@ The time of the process will depend on how many notes you have, but as you may e
 
 The new files will be available in your notes folder of gnote. It is located in `~/.local/share/gnote`. In nautilus, press `ctrl+h` in your home folder to be able to navigate .local > share > gnote. In there, you may find a new folder called **"gnote-notes-in-txt"** which contains the all your notes in text format.
 
+Some installation also push the notes to ~/.gnote. Run also alternative gnote-export-to-txt.2.sh in that case.
+
 ######A couple of screenshots:
 
 Finding the folder with the notes in Nautilus.
@@ -60,6 +63,8 @@ This is how you will see the exported notes directory. A side by side comparison
 Last, this is how a the output of the process looks. Side by side with the original Gnote note. As you see, the plain text file respects the original layout. :)
 
 ![image](https://raw.githubusercontent.com/rhoconlinux/rhoconlinux.github.io/master/third-party-assets/cap6.png)
+
+Some installation directory are under 
 
 Hope to find it useful.
 
